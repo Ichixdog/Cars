@@ -8,6 +8,8 @@ $(".cars-carousel").slick({
   slidesToScroll: 1,
   prevArrow: ".arrow-prev",
   nextArrow: ".arrow-next",
+  autoplay: true,
+  autoplaySpeed: 2000,
 });
 
 $(".feedback-carousel1").slick({
@@ -18,6 +20,8 @@ $(".feedback-carousel1").slick({
   prevArrow: ".arrow-prev2",
   nextArrow: ".arrow-next2",
   appendDots: $(".slick-slider-dots1"),
+  autoplay: true,
+  autoplaySpeed: 2000,
 });
 
 $(".feedback-carousel2").slick({
@@ -28,6 +32,8 @@ $(".feedback-carousel2").slick({
   prevArrow: ".arrow-prev22",
   nextArrow: ".arrow-next22",
   appendDots: $(".slick-slider-dots2"),
+  autoplay: true,
+  autoplaySpeed: 2000,
 });
 
 $(".burger").click(function() {
